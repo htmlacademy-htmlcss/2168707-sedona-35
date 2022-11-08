@@ -184,7 +184,7 @@ body {
   padding: 0;
   font-size: 18px;
   line-height: 21px;
-  list-style: none;
+  list-style-type: none;
   grid-template-columns: repeat(3, 1fr);
 }
 
@@ -364,6 +364,21 @@ body {
   background-color: transparent;
 }
 
+.hotels {
+ display: grid;
+ margin: 0;
+ padding: 0;
+ grid-template-columns: repeat(3, 1fr);
+}
+
+.hotel-list {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  justify-content: center;
+}
 .hotels-num {
   font-size: 30px;
   line-height: 36px;
@@ -414,6 +429,13 @@ body {
   font-size: 16px;
   line-height: 20px;
   background-color: #F2F2F2;
+}
+
+.pagination {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 40px 70px 60px 70px;
 }
 
 .pagination-link {
